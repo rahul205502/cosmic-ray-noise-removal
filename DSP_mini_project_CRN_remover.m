@@ -1,6 +1,6 @@
 
-I2 = im2double(imread('cosmic_corrupted_img_2012.png'));
-I1 = im2double(imread('cosmic_corrupted_img_2010.png'));
+I2 = im2double(imread('cosmic_corrupted_img_2010.png'));
+I1 = im2double(imread('cosmic_corrupted_img_2012.png'));
 
 if size(I1,3)==3
     I1 = rgb2gray(I1);
